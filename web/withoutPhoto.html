@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>sende without photo</title>
+        <link rel="icon" href="photos/whatsapp.png">
+        <link rel="stylesheet" href="css/withoutphoto.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+        <script src="eel.js"></script>
+    </head>
+    <body>
+        <div class="main-div">
+            <div class="divImport backIcon" data-href="index.html">
+                <i class="fas fa-arrow-left icons" data-href="index.html"></i>
+                <h3 data-href="index.html">Back</h3>
+            </div>
+            <div class="import divImport">
+                <i class="fas fa-file-import import icons"></i>
+                <h3>Imports</h3>
+            </div>
+            <div class="divImport forwardIcon" data-href="withphoto.html">
+                <i class="fas fa-arrow-right icons iicons" data-href="withphoto.html"></i>
+                <h3 data-href="withphoto.html" class="h3Icons">Photo</h3>
+            </div>
+            <div class="divImport" onclick="Refresh()">
+                <i class="fas fa-minus-circle icons clear"></i>
+                <h3>Clear</h3>
+            </div>
+            <div class="msg-header">
+                <h3>MESSAGE</h3>
+                <div class="Message-1">
+                    <h3 class="message_text">Message 1</h3>
+                </div>
+                <div class="delete">
+                    <h3 class="delete-msg">Delete</h3>
+                </div>
+                <div class="Token divImport">
+                    <i class="fas fa-cog icons"></i>
+                    <h3>Settings</h3>
+                </div>
+                <div class="Token divImport Token2" data-href="https://www.instagram.com/mustafaalkilani4/">
+                    <i class="fab fa-instagram icons"></i>
+                    <h3 class="instagram">Instagram</h3>
+                </div>
+                <div class="Token divImport Token3">
+                    <i class="fab fa-facebook icons"></i>
+                    <h3 class="instagram">Facebook</h3>
+                </div>
+                <div class="Token divImport Token4">
+                    <i class="fab fa-slack icons"></i>
+                    <h3>Log</h3>
+                </div>
+
+            </div>
+        </div>
+        <div class="numbersforWhatsapp">
+            <div class="numbersWhatsapp">
+                <h4 id="h4">Whatsapp Numbers</h4>
+            </div>
+            <div class="numbers">
+                <h6>Numbers:</h6>
+            </div>
+            <div class="show_numbers">
+                
+            </div>
+        </div>
+        <div class="main-msg">
+            <div class="msg">
+                <textarea name="Message_Text" id="MessageText" cols="90" rows="30" required></textarea>
+            </div>
+            <div class="names divImport" style="display: flex; justify-content: center; align-items: center; flex-direction: row; ">
+                <span style="display: flex; justify-content: center; align-items: center; padding-right: 5px;">
+                    <i class="fas fa-users icons"></i>
+                </span>
+                <h3>names</h3>
+            </div>
+            <div class="sending">
+                <div class="sendingMsg">
+                    <h3>starting !!</h3>
+                </div>
+                <div class="sendingBtn">
+                    <button class="sendMsgBtn">OK</button>
+                </div>
+            </div>
+            <div class="sending Finshed">
+                <div class="sendingMsg">
+                    <h3>Finshed !!</h3>
+                </div>
+                <div class="sendingBtn">
+                    <button class="sendMsgBtn finMsgBtn finMsgMainbtn">OK</button>
+                </div>
+                
+            </div>
+            <div class="send">
+                <i class="far fa-paper-plane icons"></i>
+                <h3 class="Send-Text">Send</h3>
+            </div>
+            <div class="ProgramLog">
+                <div class="LogTitle">
+                    <h1>Log</h1>
+                </div>
+                <div class="showLogText">
+                    <h4>Error:</h4><br><br>
+                </div>
+                <div class="sendingBtn">
+                    <button class="sendMsgBtn finMsgBtn showLogBtn">OK</button>
+                </div>
+            </div>
+            <div class="main_token">
+                <div class="LogTitle"><h1>Settings</h1></div>
+                <div class="sendingBtn">
+                    <button class="sendMsgBtn finMsgBtn hideSettingsBtn">OK</button>
+                </div>
+                <div class="SettingsBody">
+                    <div class="Note">
+                    <h2>Go to <span>ultramsg.com</span> and sign up</h2>
+                    </div>
+                    <div class="video">
+                        <iframe width="600" height="300" src="https://www.youtube.com/embed/rQSMSk6kcX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    
+                    <form>
+                        <input type="text" placeholder="Instance ID" class="input input1" required>
+                        <input type="text" placeholder="Token" class="input input2" required>
+                        <button class="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+        <div class="numbersforWhatsapp whatsappResult">
+            <div class="numbersWhatsapp Log">
+                <h4 class="h4 send_log">Send Log</h4>
+                <h4></h4>
+            </div>
+            <div class="show_result">
+
+            </div>
+        </div>
+        </div>
+        <script src="js/pythonImportFile.js"></script>
+        <script src="js/withoutphoto.js"></script>
+    </body>
+</html>

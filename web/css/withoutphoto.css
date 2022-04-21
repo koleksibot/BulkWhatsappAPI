@@ -1,0 +1,415 @@
+
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #eee;
+}
+
+.main-div {
+  display: flex;
+}
+
+.divImport {
+  padding: 10px;
+  background-color: #036814;
+  /* position: fixed; */
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 10px 4px;
+  /* display: none; */
+}
+
+h3 {
+  margin: 0;
+  color: aliceblue;
+  font-size: 1.5rem;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none; 
+   -khtml-user-select: none; 
+     -moz-user-select: none; 
+      -ms-user-select: none; 
+          user-select: none;
+}
+
+.icons {
+  color: aliceblue;
+  font-size: 2rem;
+}
+
+.numbersforWhatsapp {
+  width: 425px;
+  border: solid 2px #036814;
+  height: 800px;
+  margin-left: 4px;
+}
+
+.numbersWhatsapp {
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10px;
+  margin: 0;
+  align-items: center;
+  background-color: #036814;
+  position: fixed;
+  width: 421px;
+}
+
+h4 { 
+  font-weight: lighter;
+  color: #fff;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.numbersforWhatsapp{
+  position: relative;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  width: 405px;
+  border-bottom: 1px solid #000;
+}
+
+h6 {
+  font-size: 1.2rem;
+  margin: 5px;
+}
+
+.show_numbers{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+.Status{
+  position: absolute;
+  height: 800px;
+  left: 340px;
+  top: 90px;
+}
+
+.main-msg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.msg-header{
+  height: 100px;
+  background-color: #036814;
+  position: fixed;
+  width: 800px;
+  left: 550px;
+  top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border: 2px solid #036814;
+  border-bottom: none;
+
+}
+
+.Message-1{
+  background-color: #fff;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.message_text{
+  color: #000;
+  font-size: 1.4rem;
+  padding: 5px;
+  border: 1px solid #fff;
+  font-weight: normal;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.delete {
+  position: absolute;
+  right: 7px;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.delete-msg {
+  font-weight: normal;
+  padding: 1px 20px;
+}
+
+.main-msg{
+  width: 800px;
+  height: 810px;
+  border: 1px solid #036814;
+  border-top: none;
+  position: fixed;
+  left: 550px;
+  top: 110px;
+}
+
+.msg{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+}
+
+#MessageText{
+  border: 1px solid #000;
+  overflow: scroll;
+  resize: none;
+}
+
+#MessageText:focus {
+  outline: none;
+}
+
+.sending{
+  position: absolute;
+  opacity: 0.9;
+  background-color: #fff;
+  width: 40rem;
+  height: 20rem;
+  border: 2px solid #036814;
+  z-index: 10000000000;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: none;
+}
+
+.sendingMsg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.sendingBtn{
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  cursor: pointer;
+
+}
+
+.sendMsgBtn{
+  background-color: #036814;
+  border: none;
+  width: 150px;
+  height: 55px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding:0;
+  cursor: pointer;
+}
+
+.sending h3{
+  color: #00fa2a;
+  font-size: 3rem;
+}
+
+.send{
+  background-color: #036814;
+  width: 150px;
+  height: 55px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Send-Text{
+  padding: 10px;
+}
+
+.Token{
+  position: fixed;
+  right: 350px;
+  top: 10px;
+  margin: 0;
+}
+
+.Token2{
+  right: 240px;
+}
+
+.Token3{
+  right: 130px;
+}
+
+.Token4{
+  right: 20px;
+}
+
+.ProgramLog {
+  background-color: #fff;
+  width: 45rem;
+  height: 50rem;
+  display: block;
+  position: absolute;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 2;
+  border: 1px solid #036814;
+  display: none;
+  overflow: scroll;
+}
+
+.LogTitle{
+  display: flex;
+  justify-content: center;
+}
+
+.LogTitle h1 {
+  font-size: 2rem;
+  border: 2px solid rgb(255, 132, 153);
+  padding: 10px 45px;
+  border-radius: 4px;
+}
+
+.main_token {
+  background-color: #fff;
+  width: 45rem;
+  height: 50rem;
+  display: block;
+  position: absolute;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 2;
+  border: 1px solid #036814;
+  display: none;
+}
+
+.SettingsBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.LogTitle > h1 {
+  margin: 0;
+}
+
+.Note > h2 > span{
+  color: #00fa2a;
+  user-select: text;
+}
+
+.video {
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.SettingsBody > form{
+  width: 310px;
+}
+
+.input{
+  padding: 10px 10px;
+  margin: 5px;
+  width: 100%;
+  border: none;
+  background-color: #eee;
+  font-size: 1.4rem;
+  transition: width .35s ease-in-out;
+}
+
+.submit{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 1.4rem;
+  padding: 10px 10px;
+  margin: 5px;
+  width: 100%;
+}
+
+.input:focus {
+  width: 400px;
+  outline: none;
+}
+
+
+.show_result {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 70px;
+  margin-right: 10px;
+}
+
+.Log{
+  position: fixed;
+  right: 20px;
+  top: 120px;
+  width: 430px;
+  height: 60px;
+}
+
+.whatsappResult{
+  position: fixed;
+  right: 20px;
+  top: 120px;
+  width: 430px;
+}
+
+.instagram{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.photoLocation{
+  position: absolute;
+  bottom: 25px;
+  left: 120px;
+  border: 1px solid salmon;
+  width: 450px;
+  padding: 7px 5px;
+  overflow: scroll;
+}
+
+
+.names {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 350px;
+  left: 36rem;
+  height: 60px;
+  width: 150px;
+}
